@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+*.dump
+*.backup
+*.sql.gz
+*.log
+plans/*.json
+plans/*.txt
+!plans/.gitkeep

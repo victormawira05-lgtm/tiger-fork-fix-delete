@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "tiger": {
+      "command": "tiger",
+      "args": ["mcp", "start"],
+      "env": {
+        "TIGER_READ_ONLY": "prod"
+      }
+    },
+    "tiger-docs": {
+      "type": "http",
+      "url": "https://mcp.tigerdata.com/docs"
+    }
+  }
+}
